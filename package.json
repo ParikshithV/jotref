@@ -8,20 +8,20 @@
 		"notes",
 		"dev"
 	],
-	"homepage": "https://github.com/ParikshithV/CLIst#readme",
+	"homepage": "https://github.com/ParikshithV/jotref#readme",
 	"bugs": {
-		"url": "https://github.com/ParikshithV/CLIst/issues"
+		"url": "https://github.com/ParikshithV/jotref/issues"
 	},
 	"repository": {
 		"type": "git",
-		"url": "git+https://github.com/ParikshithV/CLIst.git"
+		"url": "git+https://github.com/ParikshithV/jotref.git"
 	},
 	"license": "MIT",
 	"author": "Parikshith V",
 	"type": "module",
 	"main": "index.js",
 	"bin": {
-		"clist": "dist/cli.js"
+		"jotref": "dist/cli.js"
 	},
 	"files": [
 		"dist"

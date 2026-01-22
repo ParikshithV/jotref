@@ -7,13 +7,13 @@ import {render} from 'ink';
 const cli = meow(
 	`
 	Usage
-	  $ clist
+	  $ jotref
 
 	Options
 		--add  Your string to add
 
 	Examples
-	  $ clist --add=ls -a
+	  $ jotref --add=ls -a
 	  Hello, Jane
 `,
 	{

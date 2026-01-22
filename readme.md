@@ -9,7 +9,7 @@ npm install -g jotref
 
 Once installed globally, the CLI will be available as:
 
-clist
+jotref
 
 Install Locally (Development / Testing)
 npm install jotref
@@ -17,11 +17,11 @@ npm install jotref
 
 Run it using:
 
-npx clist
+npx jotref
 
 Install From GitHub (Latest Source)
-git clone https://github.com/ParikshithV/CLIst.git
-cd CLIst
+git clone https://github.com/ParikshithV/jotref.git
+cd jotref
 npm install
 npm run build
 npm link
@@ -29,13 +29,13 @@ npm link
 
 Then run:
 
-clist
+jotref
 
 Usage
 
 Launch the CLI by running:
 
-clist
+jotref
 
 
 You will be presented with an interactive terminal UI.
@@ -120,13 +120,13 @@ Binary Mapping
 The CLI command is registered via:
 
 "bin": {
-  "clist": "dist/cli.js"
+  "jotref": "dist/cli.js"
 }
 
 
 This means:
 
-clist is the executable command
+jotref is the executable command
 
 dist/cli.js is the entry point
 
