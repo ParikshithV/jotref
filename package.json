@@ -1,7 +1,7 @@
 {
-	"name": "clist",
-	"version": "0.2.0",
-	"description": "Your list of notes, now in CLI",
+	"name": "jotref",
+	"version": "0.1.0",
+	"description": "Jot your references in CLI",
 	"keywords": [
 		"cli",
 		"list",
