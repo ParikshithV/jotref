@@ -1,133 +1,96 @@
 # jotref
 
-**jotref** is a CLI tool built with **React Ink** for quickly saving, listing, and copying short notes or references from your terminal.
+**jotref** is a terminal-based CLI for quickly saving, listing, editing, and copying short notes or references.
+
+## Installation & Usage (npm / Yarn)
+
+### Global Install (Recommended)
+
+## npm
+`npm install -g jotref`
+
+## yarn
+`yarn global add jotref`
+
+Run the CLI:
+
+`jotref`
 
 ---
 
-## 📦 Installation
+### Local Install
 
-Make sure you have **Node.js ≥ 16** installed.
+## npm
+`npm install jotref`
 
-### Install Globally (Recommended)
+## yarn
+`yarn add jotref`
 
-```bash
-npm install -g jotref
+Run the CLI:
 
-Once installed globally, the CLI will be available as:
+## npm
+`npx jotref`
 
-jotref
+## yarn
+`yarn jotref`
 
-Install Locally (Development / Testing)
+---
 
-npm install jotref
-
-Run it using:
-
-npx jotref
-
-Install From GitHub (Latest Source)
-
-git clone https://github.com/ParikshithV/jotref.git
-cd jotref
-npm install
-npm run build
-npm link
-
-Then run:
-
-jotref
-
-▶️ Usage
-
-Launch the CLI by running:
-
-jotref
-
-You will be presented with an interactive terminal UI.
-🧭 Main Menu
+## Main Menu
 
 1. Add new
 2. List all
 3. Edit saved
 
-Press Esc to close the application.
-➕ Add a New Reference
+Press `Esc` at any time to exit.
 
-    Press 1
+---
 
-    Type your note/reference
+## Add a Reference
 
-    Press Enter to save
+1. Press `1`
+2. Type your note or reference
+3. Press `Enter` to save
 
-The note is stored locally and becomes immediately available in the list.
-📋 List & Copy References
+The reference is stored locally and available immediately.
 
-    Press 2 to view all saved references
+---
 
-    Type the number corresponding to the reference
+## List & Copy References
 
-    Press Enter to copy it to your clipboard
+1. Press `2` to view saved references
+2. Type the number of a reference
+3. Press `Enter`
 
-Once copied, the app exits automatically.
-✏️ Edit Saved References
+The selected reference is copied to your clipboard and the app exits.
 
-    Press 3 from the main menu
+---
 
-    Select an item to edit
-    (behavior depends on AlterListView)
+## Edit Saved References
 
-🚪 Exit the Application
+1. Press `3` from the main menu
+2. Select a reference to edit
+   (editing behavior depends on `AlterListView`)
 
-Press Esc at any time to exit cleanly.
-⌨️ Keyboard Controls
-Global
-Key	Action
-Esc	Exit CLI
-Menu
-Key	Action
-1	Add a new reference
-2	List all references
-3	Edit saved references
-List View
-Key	Action
-1..n	Select reference
-Enter	Copy selected reference
-Backspace / Delete	Return to menu
-📎 Clipboard Support
+---
 
-jotref automatically copies selected references to your system clipboard using clipboardy.
+## Keyboard Controls
 
-No additional setup is required.
-🛠 Development
-Build
+### Global
+- `Esc` — Exit the application
 
-npm run build
+### Menu
+- `1` — Add new reference
+- `2` — List all references
+- `3` — Edit saved references
 
-Compiles TypeScript into the dist/ directory.
-Watch Mode (Development)
+### List View
+- `1..n` — Select reference
+- `Enter` — Copy selected reference
+- `Backspace` / `Delete` — Return to menu
 
-npm run dev
+---
 
-Runs the TypeScript compiler in watch mode.
-Build & Run
+## Clipboard
 
-npm run buildrun
-
-Builds the project and immediately runs the CLI.
-🔗 Binary Mapping
-
-The CLI command is registered via:
-
-"bin": {
-  "jotref": "dist/cli.js"
-}
-
-This means:
-
-    jotref → executable command
-
-    dist/cli.js → entry point
-
-📄 License
-
-MIT © Parikshith V
+Selected references are automatically copied to your system clipboard.
