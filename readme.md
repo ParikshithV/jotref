@@ -1,6 +1,6 @@
 # jotref
 
-**jotref** is a Node.js–based CLI tool built with **React Ink** for quickly saving, listing, and copying short notes or references from your terminal.
+**jotref** is a CLI tool built with **React Ink** for quickly saving, listing, and copying short notes or references from your terminal.
 
 ---
 
